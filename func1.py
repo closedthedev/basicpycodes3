@@ -44,7 +44,9 @@ while True:
         divisão(a , b) 
 
     continuar = int(input('Quer continuar com números diferentes e/ou operações diferentes? Digite 1 para fazer outra operação com os mesmos números, 2 para digitar outros números e 3 para sair. '))
-
+    
+    if continuar == 3:
+            break
     if continuar == 1:
 
         print('[1] SOMA')
